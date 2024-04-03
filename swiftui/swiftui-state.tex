@@ -1,6 +1,37 @@
 \documentclass{article}
 \usepackage{kotex}
 \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% 코드 하이라이팅을 위한 설정
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \begin{document}
    
@@ -10,6 +41,48 @@ Observable의 property가 변경될 경우, View에서 the property를 참조한
 $\rightarrow$ Child View에도 동일하게 적용된다. 즉, the property를 참조한다면 Child View 전체가 refresh된다.
 
 $\rightarrow$ Parent View에도 동일하게 적용된다. $\rightarrow$ Child View에도 동일하게 적용된다.
+
+\subsection{Obervable in Observable}
+Observable내에 Observable property가 있는 경우를 보자.
+아래 코드의 StateRefreshTestModel.data1.count가 변경될 경우, 이를 참조하는 View의 전체가 refresh된다.
+
+data1이 @ObservationIgnored로 선언되어 있어도 count가 변경되면 refresh된다.
+
+이것으로 보아 다음과 같은 결론을 내릴 수 있다.
+
+\textbf{Perperty 체인의 최종 property가 ObservationIgnored가 아니면 중간에 ObservationIgnored의 유무에 상관없이 refresh된다.}
+
+\begin{lstlisting}[language=Swift]
+    @Observable class StateRefreshTestModel {
+        var count: Int = 0
+        @ObservationIgnored var count1: Int = 0
+        func increase() {
+            count += 1
+        }
+        
+        func increase1() {
+            count1 += 1
+        }
+        
+        @ObservationIgnored var data1 = Data1()
+    }
+    
+    @Observable class Data1 {
+        var count: Int = 0
+        var count1: Int = 0
+        @ObservationIgnored var count2: Int = 0
+        func increase() {
+            count += 1
+        }
+        func increase1() {
+            count1 += 1
+        }
+        func increase2() {
+            count2 += 1
+        }
+    }
+\end{lstlisting}
+
 
 \section{ObservableObject}
 \begin{enumerate}
