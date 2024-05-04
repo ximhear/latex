@@ -1,0 +1,179 @@
+angry;화난
+Because Jane does not listen to her, Jane's mom is angry.
+
+boring;지루한
+Jason hates staying inside because it is so boring.
+
+class;수업
+Ryan's dad teaches a new class.
+
+dream;꿈꾸다
+She dreams about living in the city.
+
+famous;유명한
+The kids like the famous baseball player.
+
+feel;느끼다
+He felt very hot after walking for half the morning.
+
+future;미래
+In the future, we will not need roads for driving.
+
+group;그룹
+The group uses a large table to study.
+
+hobby;취미
+Her hobbies are drawing and painting.
+
+job;직업
+She needs money, so she wants to get a job.
+
+hundred;숫자 100
+Five hundred dollars is a lot of money.
+
+invite;초대하다
+Mrs. Jones invited us into her home.
+
+math;수학
+The boy is good at math.
+
+photograph(photo);사진
+I am glad you shared these photos with me.
+
+president;대통령
+Many kids dream about becoming their country's president.
+
+really;정말
+This TV show is really good.
+
+speech;연설
+The woman answered a lot of questions during her speech.
+
+travel;여행하다
+Vicky loves to travel. She goes to many faraway places.
+
+voice;목소리
+Janet has a beautiful voice. She should give singing lessons.
+
+wonder;궁금해지다
+Carlos did not bring a pencil to class today. I wonder why.
+
+baseball;야구
+I really like to play baseball with my brother.
+
+basketball;농구
+I need new shoes for playing basketball.
+
+dangerous;위험한
+Going into the city alone can be dangerous.
+
+excited;신이 난
+Lisa is excited to hear the president's speech.
+
+hill;언덕
+I wonder what is at the top of that hill.
+
+hit;치다
+Josh hit the ball with his bat.
+
+hospital;병원
+The nurse at the hispital was nice to Janet.
+
+hurt;다치다
+Max hurt his leg when he fell down during the game.
+
+motorbike;오토바이
+Riding a motorbike is one of my hobbies.
+
+slow;느린
+The snail is a slow animal.
+
+drop;떨어뜨리다
+Agnes dropped the ball.
+
+earth;땅
+The earth here is perfect for growing things.
+
+flag;깃발
+The flag shows the race is over.
+
+foolish;어리석은
+It was foolish to get close to the animal.
+
+hold;잡다
+The lady is holding a bottle of water.
+
+matter;문제가 되다
+It does not matter which doctor you see. They are all good.
+
+round;둥근
+The colorful ball is round.
+
+take;데리고 가다
+I am going to take my little brother to a game.
+
+tie;무승부
+The game ended in a tie.
+
+weather;날시
+We did not have our baseball game because of bad weather.
+
+art;미술품
+One of my hobbies is making art for my parents.
+
+build;짓다
+He dreams about building houses for a job.
+
+choose;고르다
+They are choosing which color they like.
+
+draw;그리다
+Martha is drawing a man walking with a flag.
+
+kid;아이
+The kid in the math class did not understand the lesson.
+
+paint;그림 그리다
+In the future, she hopes to paint great art for a job.
+
+picture;사진, 그림
+These are pictures of my friends.
+
+plant;식물
+There are many plants on this hill.
+
+repeat;반복하다
+Can you please repeat the question?
+
+wall;벽
+Does it matter what I put on my bedroom walls?
+
+absent;결석한
+Many students were absent because of bad weather.
+
+back;뒤쪽
+The people in the back of the room could not hear.
+
+fix;고치다
+Mike had to fix the window that his son broke.
+
+land;땅
+The land is really dry this year.
+
+pants;바지
+Bring another pair of pants with you.
+
+picnic;소풍
+They are having a picnic, and we are all invited.
+
+river;강
+Hundreds of people come to surf in this river every year.
+
+rock;바위
+Climbing rocks can be dangerous.
+
+school;학교
+We sit on the stairs in front of our school.
+
+wood;나무
+They are using wood to build the house.
