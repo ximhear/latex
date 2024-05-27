@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{3d}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw[thick,->] (0,0,0) -- (5,0,0) node[anchor=north east]{$x$};
+    \draw[thick,->] (0,0,0) -- (0,5,0) node[anchor=north west]{$y$};
+    \draw[thick,->] (0,0,0) -- (0,0,5) node[anchor=south]{$z$};
+
+    % Plane alpha
+    \filldraw[fill=blue, fill opacity=0.1] (0,0,0) -- (5,0,0) -- (5,5,0) -- (0,5,0) -- cycle;
+
+    % Plane beta
+    \filldraw[fill=red, fill opacity=0.1] (0,0,2) -- (5,0,2) -- (5,5,2) -- (0,5,2) -- cycle;
+
+    % Ellipse
+    \draw[thick] plot [smooth cycle] coordinates {(3,1,1) (4,2,1) (3,3,1) (2,2,1)};
+\end{tikzpicture}
+\end{document}
